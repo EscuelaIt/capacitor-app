@@ -1,0 +1,7 @@
+{
+  "name": "cap-101",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
