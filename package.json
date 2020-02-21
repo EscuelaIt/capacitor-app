@@ -15,6 +15,7 @@
   "dependencies": {
     "@angular/common": "~9.0.1",
     "@angular/core": "~9.0.1",
+    "@angular/fire": "^6.0.0-rc.1",
     "@angular/forms": "~9.0.1",
     "@angular/platform-browser": "~9.0.1",
     "@angular/platform-browser-dynamic": "~9.0.1",
@@ -24,7 +25,10 @@
     "@capacitor/ios": "^1.5.0",
     "@ionic/angular": "^5.0.0",
     "@ionic/pwa-elements": "^1.4.2",
+    "cordova-background-geolocation-lt": "^3.4.2",
+    "cordova-plugin-background-fetch": "^6.0.0",
     "core-js": "^2.5.4",
+    "firebase": "^7.8.0",
     "rxjs": "~6.5.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -37,6 +41,7 @@
     "@angular/language-service": "~9.0.1",
     "@capacitor/cli": "1.5.0",
     "@ionic/angular-toolkit": "^2.1.1",
+    "@ionic/lab": "3.1.0",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
@@ -51,7 +56,12 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.7.5"
+    "typescript": "~3.7.5",
+    "@angular-devkit/architect": "^0.900.0-0 || ^0.900.0",
+    "firebase-tools": "^7.12.1",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1"
   },
   "description": "An Ionic project"
 }

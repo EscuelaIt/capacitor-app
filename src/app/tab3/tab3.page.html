@@ -7,11 +7,17 @@
 </ion-header>
 
 <ion-content>
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <input type="tel">
+  <ion-item [color]="isOpenKeyboard ? 'primary': 'danger'">
+    <ion-label>Texto</ion-label>
+    <ion-input type="tel"></ion-input>
+  </ion-item>
+  <ion-button (click)='showTop("mensaje top")'>Top</ion-button>
+  <ion-button (click)='showCenter("mensaje center")'>Center</ion-button>
+  <ion-button (click)='showBottom("mensaje bottom")'>Bottom</ion-button>
+  <ion-button (click)="showKeyboard()">show keyboard</ion-button>
+  <ion-button (click)="hideKeyboard()">hide keyboard</ion-button>
+  <ion-button (click)="scheduleNotification('notification 1')">notification 1</ion-button>
+  <ion-button (click)="scheduleNotification('notification 2')">notification 2</ion-button>
+  <ion-button (click)="scheduleNotification('notification 3')">notification 3</ion-button>
 </ion-content>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "capacitor-escueltait": {
+      "hosting": {
+        "app": [
+          "capacitor-escueltait"
+        ]
+      }
+    }
+  }
+}

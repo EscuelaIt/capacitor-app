@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "cap-101",
+  "appId": "com.escuelaiiit.app",
+  "appName": "Capacitor demo",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

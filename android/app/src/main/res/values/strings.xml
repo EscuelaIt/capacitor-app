@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">cap-101</string>
-    <string name="title_activity_main">cap-101</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">Ionic Cap Demo</string>
+    <string name="title_activity_main">Ionic Cap Demo</string>
+    <string name="package_name">com.escuelaiit.app</string>
+    <string name="custom_url_scheme">com.escuelaiit.app</string>
 </resources>

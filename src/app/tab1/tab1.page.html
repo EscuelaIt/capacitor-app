@@ -7,7 +7,14 @@
 </ion-header>
 
 <ion-content>
-  <img *ngIf="photo" [src]="photo" alt="photo">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4" *ngFor="let photo of photos">
+        <img *ngIf="photo" (click)="share()" [src]="photo" alt="photo">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
   <ion-fab vertical="top" horizontal="end" slot="fixed">
     <ion-fab-button (click)="takePicture()">
       <ion-icon name="add"></ion-icon>

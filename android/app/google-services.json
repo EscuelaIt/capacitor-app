@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1071641404080",
+    "firebase_url": "https://capacitor-escueltait.firebaseio.com",
+    "project_id": "capacitor-escueltait",
+    "storage_bucket": "capacitor-escueltait.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071641404080:android:17b2886fb8e73e63c1d175",
+        "android_client_info": {
+          "package_name": "com.escuelaiit.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071641404080-7boqmn44sbldk8g0254lg53tm4fkvi51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9uK-QRxX69KNDhm8eCCS_DyZxnAkf6nE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071641404080-7boqmn44sbldk8g0254lg53tm4fkvi51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
